@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Search Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <form
+      action="https://www.google.com/search?q=mustar"
+      role="search"
+      method="GET"
+      autocomplete="on"
+    >
+      <fieldset>
+        <legend>Search on Google</legend>
+        <input
+          type="search"
+          name="q"
+          aria-autocomplete="both"
+          placeholder="Looking for..."
+          style="border: 1px solid rgb(219, 216, 216);"
+        />
+        <button
+          type="submit"
+          style="
+            background-color: white;
+            border: 1px solid rgb(219, 216, 216);
+            border-radius: 5px;
+          "
+        >
+          SEARCH
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>

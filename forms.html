@@ -1,0 +1,78 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Classwork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <form action="/index.html" method="POST">
+      Nume: <input type="text" name="nume" placeholder="Nume" />
+      <br />
+      <br />
+      Prenume: <input type="text" name="prenume" placeholder="Prenume" />
+      <br />
+      <br />
+      Parola: <input type="password" name="parola" placeholder="Parola" />
+      <br />
+      <br />
+      <h2>Locul 1</h2>
+      <div>Car 1 <input type="radio" name="car" value="Car 1" checked /></div>
+      <div>Car 2 <input type="radio" name="car" value="Car 1" /></div>
+      <div>Car 3 <input type="radio" name="car" value="Car 3" /></div>
+      <h3>Locul 2</h3>
+      <div>Car 1 <input type="radio" name="car2" value="Car 1" /></div>
+      <div>Car 2 <input type="radio" name="car2" value="Car 1" /></div>
+      <div>Car 3 <input type="radio" name="car2" value="Car 3" checked /></div>
+      <br />
+      <h2>Cursul de programare preferat</h2>
+      <select name="cursuri" multiple>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="C++">C++</option>
+        <option value="Javascript">Javascript</option>
+      </select>
+      <br />
+      <br />
+      <label for="vehicul">
+        <input
+          type="checkbox"
+          id="vehicul"
+          name="vehicul"
+          value="bicicleta"
+        />Bicicleta
+      </label>
+      <label for="vehicul1">
+        <input
+          type="checkbox"
+          id="vehicul1"
+          name="vehicul"
+          value="masina"
+        />Masina
+      </label>
+      <label for="vehicul2">
+        <input
+          type="checkbox"
+          id="vehicul2"
+          name="vehicul"
+          value="trolebuz"
+        />Trolebuz
+      </label>
+      <br />
+      <br />
+      <input type="color" name="culoarea" /> Culoarea favorita
+      <br />
+      <br />
+      <textarea name="descriere" cols="50" rows="10">Descriere curs</textarea>
+      <hr />
+      <input type="submit" value="Trimite datele prin input" />
+      <br />
+      <br />
+      <input type="reset" name="reset" />
+      <br />
+      <br />
+      <button type="submit">Trimite Datele Prin Buton</button>
+    </form>
+  </body>
+</html>
